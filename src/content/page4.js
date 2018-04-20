@@ -26,6 +26,39 @@ class page4 extends Component{
                 <p>
                     Full stack developers work with both the front and back end of a website. They’re familiar with HTML, CSS, JavaScript, and one or more back end languages.
                 </p>
+                <p>
+                    Contentful
+                    ES6
+                    Wordpress / Drupal / Umbraco
+                    Reactjs / Angularjs / Vue
+                    SASS / LESS
+                    Javascript
+                    Jquery
+                    Frontend / Backend / Fullstack
+                    Taskrunners – Webpack / Gulp / Grunt / Yarn / Npn
+                    Npm
+                    Browsers – Chrome / Firefox / IE / Mozilla
+                    HTML
+                    CSS
+                    Bootstrap / Foundation / Skeleton
+                    Tools – Visual studio code / Brackets /  Sublime text
+                    PHP / ASP
+                    Ecommerce Shopfiy / Magento / Yo Kart / BigCommerce / WooCommerce / Neto
+                    Sketch / photoshop
+                    Source tree
+                    Jira / trello
+                    Mailchimp / taguchi
+                    Browser stack
+                    Chrome developer tools
+                    CSS Flexbox / CSS Grid
+                    Code playground - Codepen / JSFiddle / JS Bin / Plunker / Dabblet / CSS Deck / Liveweave
+                    Php frameworks - Symfony, Laravel, and Yii
+                    Source tree / svn / git / Mercurial
+                    Resource guru / Jira / trello
+                    Crossbrowser Testing / Sauce Labs / Ghostlab / Testingbot / EndTest / Browserstack
+                    Chrome developer extensions - Web Developer / Canvasflip visual inspector . - https://alternativeto.net/software/google-chrome-developer-tools/
+                    Contentful / Netlify / Prismic / Bandzoogle
+                </p>
                 
             </div>
         );
