@@ -11,21 +11,37 @@ class page1 extends Component{
             color:'white',
             boxSizing: 'border-box'
         }
+        const flexBox = {
+            display:'flex',
+            flexDirection:'row',
+            flexWrap:'wrap',
+        }
+        const liStyle = {
+            width: '200px',
+            height: '200px',
+            float:'left',
+            padding: '20px',
+            listStyle:'none',
+            margin:'5px',
+            backgroundColor:'white',
+            color:'purple'
+            
+        }
         return(
             <div style={mainContainer}>
                 <h1>Top 10 ES6 Features Every Busy JavaScript Developer Must Know</h1>
                 <p>Here’s the list of the top 10 best ES6 features for a busy software engineer (in no particular order):</p>
-                <ul>
-                    <li>Default Parameters in ES6</li>
-                    <li>Template Literals in ES6</li>
-                    <li>Multi-line Strings in ES6</li>
-                    <li>Destructuring Assignment in ES6</li>
-                    <li>Enhanced Object Literals in ES6</li>
-                    <li>Arrow Functions in ES6</li>
-                    <li>Promises in ES6</li>
-                    <li>Block-Scoped Constructs Let and Const</li>
-                    <li>Classes in ES6</li>
-                    <li>Modules in ES6</li>
+                <ul style={flexBox}>
+                    <li style={liStyle}>Default Parameters in ES6</li>
+                    <li style={liStyle}>Template Literals in ES6</li>
+                    <li style={liStyle}>Multi-line Strings in ES6</li>
+                    <li style={liStyle}>Destructuring Assignment in ES6</li>
+                    <li style={liStyle}>Enhanced Object Literals in ES6</li>
+                    <li style={liStyle}>Arrow Functions in ES6</li>
+                    <li style={liStyle}>Promises in ES6</li>
+                    <li style={liStyle}>Block-Scoped Constructs Let and Const</li>
+                    <li style={liStyle}>Classes in ES6</li>
+                    <li style={liStyle}>Modules in ES6</li>
                 </ul>
             </div>
         );
